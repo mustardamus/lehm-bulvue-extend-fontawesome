@@ -1,0 +1,8 @@
+{
+  "config": {
+    "clientFontsDir": "fonts"
+  },
+  "scripts": {
+    "client:copy:fonts": "rimraf $npm_package_config_clientDistDir/$npm_package_config_clientFontsDir && cp -r ./node_modules/font-awesome/fonts $npm_package_config_clientDistDir/$npm_package_config_clientFontsDir"
+  }
+}
