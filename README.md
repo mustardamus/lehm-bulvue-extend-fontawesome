@@ -1,8 +1,9 @@
-# Frontend Extend with Phonegap
+# Frontend Extend with FontAwesome
 
 This is a frontend extension template, based on the
 [frontend boilerplate](https://github.com/mustardamus/lehm-frontend-boilerplate)
-, for the [Lehm file-generator](https://mustardamus.github.io/lehm/).
+or [frontend vueify boilerplate](https://github.com/mustardamus/lehm-frontend-boilerplate-vueify),
+for the [Lehm file-generator](https://mustardamus.github.io/lehm/).
 
 Your project will be extended with [Font Awesome](http://fontawesome.io/) and
 convenient [NPM commands](docs/font-awesome.md).
