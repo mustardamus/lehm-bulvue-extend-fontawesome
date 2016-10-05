@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Frontend Extend with Font-Awesome',
-  description: 'https://github.com/mustardamus/lehm-frontend-extend-fontawesome',
+  description: 'https://github.com/mustardamus/lehm-bulvue-extend-fontawesome',
   delimiters: '{{ }}',
   ignore: ['README.md', 'package.json'],
 
