@@ -6,7 +6,7 @@ module.exports = {
   delimiters: '{{ }}',
   ignore: ['README.md', 'package.json'],
 
-  after: function (srcPath, distPath, variables, utils) {
+  after ({ srcPath, distPath, variables, utils }) {
     let pkgPath = distPath + '/package.json'
     let oldPkg = require(pkgPath)
     let extPkg = require(srcPath + '/package.json')
